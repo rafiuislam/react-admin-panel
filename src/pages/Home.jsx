@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
-import Chart from "../../components/Chart";
-import Info from "../../components/Info";
-import WidgetLg from "../../components/WidgetLg";
-import WidgetSm from "../../components/WidgetSm";
-import { userData } from "../../dummyData";
+import Chart from "../components/Chart";
+import Info from "../components/Info";
+import WidgetLg from "../components/WidgetLg";
+import WidgetSm from "../components/WidgetSm";
+import { userData } from "../dummyData";
 
 const Container = styled.div`
     flex: 4;
