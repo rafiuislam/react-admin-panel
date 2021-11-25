@@ -38,7 +38,6 @@ const Button = styled.button`
     background-color: #3bb077;
     color: white;
     margin-right: 25px;
-    text-decoration: none;
 `;
 
 const Icon = styled.div`
@@ -92,7 +91,7 @@ const UserList = () => {
             renderCell: (params) => {
                 return (
                     <User>
-                        <Link to={"/user/" + params.row.id}>
+                        <Link to={"/user/" + params.row.id} className="link">
                             <Button>Edit</Button>
                         </Link>
                         <Icon>

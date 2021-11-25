@@ -18,6 +18,7 @@ import {
     LocationSearching,
     Publish,
 } from "@material-ui/icons";
+import { Link } from "react-router-dom";
 
 const Container = styled.div`
     flex: 4;
@@ -173,7 +174,9 @@ const User = () => {
         <Container>
             <Title>
                 <UserTitle>Edit User</UserTitle>
-                <UserAdd>Create</UserAdd>
+                <Link to="/newUser">
+                    <UserAdd>Create</UserAdd>
+                </Link>
             </Title>
             <UserContainer>
                 <UserShow>
