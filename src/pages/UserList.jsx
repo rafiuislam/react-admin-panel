@@ -92,7 +92,7 @@ const UserList = () => {
             renderCell: (params) => {
                 return (
                     <User>
-                        <Link to={"/users/" + params.row.id}>
+                        <Link to={"/user/" + params.row.id}>
                             <Button>Edit</Button>
                         </Link>
                         <Icon>
