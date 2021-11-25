@@ -17,6 +17,14 @@ const Item = styled.div`
     margin: 0 20px;
     padding: 30px;
     border-radius: 10px;
+
+    tansform: scale(0);
+    transition: transform 0.8s ease 0s;
+    &:hover {
+        color: white;
+        background-color: #505be4;
+        transform: scale(1.1);
+    }
     cursor: pointer;
     box-shadow: 12px 10px 25px -1px rgba(0, 0, 0, 0.25);
     -webkit-box-shadow: 12px 10px 25px -1px rgba(0, 0, 0, 0.25);
@@ -41,7 +49,6 @@ const MoneyRate = styled.span`
 `;
 const Sub = styled.div`
     font-size: 15px;
-    color: #999;
 `;
 const ArrowUP = styled.span`
     font-size: 14px;

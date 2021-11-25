@@ -53,10 +53,12 @@ const Item = styled.li`
     border-radius: 10px;
     padding: 5px;
     cursor: pointer;
-
+    tansform: scale(0);
+    transition: transform 0.6s ease 0s;
     &:hover {
         color: white;
-        background-color: rgb(187, 187, 187);
+        background-color: #505be4;
+        transform: scale(1.2);
     }
 `;
 
